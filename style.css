@@ -6,7 +6,7 @@ body{
 #container{
 	background-color: white;
 	margin: 100px auto;
-	width: 600px;
+	max-width: 600px;
 	height: auto;
 	text-align: center;
 	border: 1px solid black;
@@ -21,9 +21,10 @@ form{
 	margin-top: 20px;
 }
 .input-group{
-	width: 400px;
+	min-width: 300px;
 	text-align: center;
-	margin: 0px auto;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom: 3%;
 }
 #up{
