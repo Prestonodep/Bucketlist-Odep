@@ -1,0 +1,36 @@
+*{margin: 0px}
+body{
+	background-color: orange;
+	font-family: century gothic;
+}
+#container{
+	background-color: white;
+	margin: 100px auto;
+	width: 600px;
+	height: auto;
+	text-align: center;
+	border: 1px solid black;
+}
+h2{
+	text-align: center;
+}
+form{
+	margin-top: 20px;
+}
+#sign{
+	margin-top: 20px;
+}
+.input-group{
+	width: 400px;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 3%;
+}
+#up{
+	margin-top: 4%
+}
+#head{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
