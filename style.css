@@ -55,4 +55,18 @@ form {
 a.close {
   float: right;
 }
+* {
+  .border-radius(0) !important;
+}
 
+#field {
+    margin-bottom:20px;
+}
+#view-bucket a{
+	text-decoration: none;
+}
+#view-bucket a:hover{
+	text-decoration: none;/*
+	border: 1px solid red;*/
+	border-radius: solid 1px red;
+}

@@ -12,15 +12,48 @@
 <body>
 `	<div id="head">Bucket List</div>
 	<div id="container">
-		<h2>My Bucket List</h2>
-			<div class="form-group">
-	    <form role="form">
-	        <input type="text" class="form-control" placeholder="Add a Bucket" name="task">
-	    </form>
-	    <button type="button" class="btn btn btn-primary">Add</button>
+			<h2>My Bucket List</h2>
+			   <!-- <ul class="list-unstyled" id="todo"></ul>
+		    <div class="row">
+			<input type="hidden" name="count" value="1" />
+	        <div class="control-group" id="fields">
+	            <div class="controls" id="profs"> 
+	                <form class="input-append">
+	                    <div id="field"><input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type something" data-items="8"/><button id="b1" class="btn add-more" type="button">+</button></div>
+	                </form>
+	            <br>
+	            <small>Press + to add a bucket</small>
+	            </div>
 	        </div>
-	        <div></div>
-	    <ul class="list-unstyled" id="todo"></ul>
+			</div> -->
+			<div class="panel panel-default">
+	    <div class="panel-body">
+	        <form action="" >
+	 
+	      	<div class="input-group control-group after-add-more">
+				
+				
+				   <input type="text" name="addmore[]" class="form-control" placeholder="Add Bucket">
+						  <div class="input-group-btn"> 
+							<button class="btn btn-success add-more" type="button"><i class="glyphicon glyphicon-plus"></i> Add</button>
+						  </div>
+				  </div>
+	 
+	        </form>
+			
+	 
+	        <!-- Copy Fields-These are the fields which we get through jquery and then add after the above input,-->
+	        <div class="copy-fields hide">
+	          <div class="control-group input-group" style="margin-top:10px">
+	            <input type="text" name="addmore[]" class="form-control" placeholder="Add another bucket here">
+	            <div class="input-group-btn"> 
+	              <button class="btn btn-danger remove" type="button"><i class="glyphicon glyphicon-remove"></i> Remove</button>
+	            </div>
+	          </div>
+	        </div>
+		</div>
+	  	</div>
+	  	<div id="view-bucket"><a href="#">View your bucket list</a></div>
 	</div>
 </body>
 </html>
